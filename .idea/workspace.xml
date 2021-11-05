@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71e2ea4a-e535-4b4d-b7cd-d5d7e2a78b84" name="Changes" comment="" />
+    <list default="true" id="71e2ea4a-e535-4b4d-b7cd-d5d7e2a78b84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/FiatResourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/fiat/Fiat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/repositorio/FiatRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concessionaria-DIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Concessionaria-DIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/google_checks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/pmd-ruleset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/CitiesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/entities/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/entities/PointType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/repositories/CityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/resources/CityResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/resources/DistanceResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/service/DistanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/service/EarthRadius.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/countries/entities/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/countries/repositories/CountryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/countries/resources/CountryResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/staties/entities/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/staties/repositories/StateRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/staties/resources/StateResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/utils/StringLocationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/resources/application-heroku.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/test/java/com/github/andrelugomes/cities/service/DistanceServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/test/java/com/github/andrelugomes/utils/StringLocationUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +55,35 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="concessionaria-api" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="concessionaria-api" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,12 +97,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dio.concessionaria.concessionariaapi.repositorio" />
+      <recent name="com.dio.concessionaria.concessionariaapi.fiat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Testes">
     <configuration name="Testes" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -54,6 +118,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Concessionaria-DIO [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Testes" />
+      <item itemvalue="Gradle.Concessionaria-DIO [bootRun]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Concessionaria-DIO [bootRun]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,5 +159,16 @@
       <updated>1636134252436</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
