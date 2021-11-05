@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71e2ea4a-e535-4b4d-b7cd-d5d7e2a78b84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/FiatResourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/fiat/Fiat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/repositorio/FiatRepositorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Concessionaria-DIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Concessionaria-DIO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/google_checks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/pmd-ruleset.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/CitiesApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/entities/City.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/entities/PointType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/repositories/CityRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/resources/CityResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/resources/DistanceResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/service/DistanceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/cities/service/EarthRadius.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/countries/entities/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/countries/repositories/CountryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/countries/resources/CountryResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/staties/entities/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/staties/repositories/StateRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/staties/resources/StateResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/java/com/github/andrelugomes/utils/StringLocationUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/resources/application-heroku.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/test/java/com/github/andrelugomes/cities/service/DistanceServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto do Bootcamp/cities-api/src/test/java/com/github/andrelugomes/utils/StringLocationUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
