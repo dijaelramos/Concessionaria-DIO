@@ -17,7 +17,7 @@ Projetos Finais da DIO do TQI Java Developer com API Rest
 * [Postgres Docker Hub](https://hub.docker.com/_/postgres)
 
 ```shell script
-docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=cities postgres
+docker run --name concessionaria-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=concessionaria postgres
 ```
 
 ### Populate
@@ -46,21 +46,6 @@ CREATE EXTENSION earthdistance;
 ```shell script
 docker exec -it cities-db /bin/bash
 psql -U postgres_user_city cities
-```
-
-### Query Earth Distance
-
-Point
-```roomsql
-select ((select lat_lon from cidade where id = 4929) <@> (select lat_lon from cidade where id=5254)) as distance;
-```
-
-Cube
-```roomsql
-select earth_distance(
-    ll_to_earth(-21.95840072631836,-47.98820114135742), 
-    ll_to_earth(-22.01740074157715,-47.88600158691406)
-) as distance;
 ```
 
 ## Spring Boot
