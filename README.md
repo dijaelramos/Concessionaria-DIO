@@ -17,35 +17,29 @@ Projetos Finais da DIO do TQI Java Developer com API Rest
 * [Postgres Docker Hub](https://hub.docker.com/_/postgres)
 
 ```shell script
-docker run --name concessionaria-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=concessionaria postgres
+docker run --name concessionaria-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_concessionaria -e POSTGRES_PASSWORD=super_password -e POSTGRES_DB=concessionaria postgres
 ```
 
 ### Populate
 
-* [data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
+* [data](https://github.com/dijaelramos/Concessionaria-DIO/tree/main/PostgreSQL)
 
 ```shell script
-cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+cd ~/.../PostgreSQL
 docker run -it --rm --net=host -v $PWD:/tmp postgres /bin/bash
-psql -h localhost -U postgres_user_city cities -f /tmp/pais.sql
-psql -h localhost -U postgres_user_city cities -f /tmp/estado.sql
-psql -h localhost -U postgres_user_city cities -f /tmp/cidade.sql
-psql -h localhost -U postgres_user_city cities
-CREATE EXTENSION cube; 
-CREATE EXTENSION earthdistance;
+psql -h localhost -U postgres_user_concessionaria concessionaria -f /tmp/fiat.sql
+psql -h localhost -U postgres_user_concessionaria concessionaria -f /tmp/chevrolet.sql
+psql -h localhost -U postgres_user_concessionaria concessionaria -f /tmp/honda.sql
+psql -h localhost -U postgres_user_concessionaria concessionaria -f /tmp/ford.sql
+psql -h localhost -U postgres_user_concessionaria concessionaria -f /tmp/volkswagen.sql
+psql -h localhost -U ppostgres_user_concessionaria concessionaria
 ```
-
-* [Postgres Earth distance](https://www.postgresql.org/docs/current/earthdistance.html)
-* [earthdistance--1.0--1.1.sql](https://github.com/postgres/postgres/blob/master/contrib/earthdistance/earthdistance--1.0--1.1.sql)
-* [OPERATOR <@>](https://github.com/postgres/postgres/blob/master/contrib/earthdistance/earthdistance--1.1.sql)
-* [postgrescheatsheet](https://postgrescheatsheet.com/#/tables)
-* [datatype-geometric](https://www.postgresql.org/docs/current/datatype-geometric.html)
 
 ### Access
 
 ```shell script
-docker exec -it cities-db /bin/bash
-psql -U postgres_user_city cities
+docker exec -it concessionaria-db /bin/bash
+psql -U postgres_user_concessionaria concessionaria
 ```
 
 ## Spring Boot
