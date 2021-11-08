@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71e2ea4a-e535-4b4d-b7cd-d5d7e2a78b84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/chevrolet/Chevrolet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/chevrolet/ChevroletRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/chevrolet/ChevroletResourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/ford/Ford.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/ford/FordRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/ford/FordResourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/honda/Honda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/honda/HondaRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/honda/HondaResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/volkswagen/Volkswagen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/volkswagen/VolkswagenRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/volkswagen/VolkswagenResourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/FiatResourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/fiat/FiatResourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/repositorio/FiatRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dio/concessionaria/concessionariaapi/fiat/FiatRepositorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +68,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20VebLt3iA9XbTsEf0Mib2j9RBk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -135,5 +152,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
